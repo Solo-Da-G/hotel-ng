@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stage-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/hotel1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+
+.cover-form {
+    background: white;
+    position: sticky;
+  
+    /* position: -webkit-sticky; */
+    top: 0;
+    margin: 0 auto;
+    margin-top:-60px;
+    width: 1080px;
+    height: 130px;
+    box-shadow: 1px 1px 1px 1px rgb(147, 145, 145);
+    z-index: 1;
+  
+}
+
+
+input[type=text] {
+    padding: 6px;
+    width: 400px;
+    /* border: 0px 1px 0 1px solid black; */
+    outline: #00AEFF;
+    ;
+    margin-top: 30px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -10px;
+    border: 1px solid #00AEFF;
+    border-left: none;
+
+
+}
+
+input[type=date] {
+    padding: 6px;
+    width: 300px;
+    border: 1px solid #00AEFF;
+    border-radius: 5px;
+
+}
+
+input[type=date]:focus {
+    border-color: #00AEFF;
+    outline: blue;
+}
+
+input:focus {
+    border-color: #00AEFF;
+    
+
+}
+
+
+.btn-light {
+    padding: 7px;
+    height: 37.5px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    border: 1px solid #00AEFF;
+    border-right: none;
+    background: white;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.btn-light:focus {
+    outline: #00AEFF;
+    border-color: #00AEFF;
+    ;
+}
+
+.prime {
+    padding: 8px 12px;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #00AEFF;
+    /* border: none; */
+    margin-bottom: 7px;
+}
+
+.row {
+    /* margin-top: 90px; */
+    width: 100%;
+
+}
+
+.pt {
+    margin-top: 140px;
+   
+    
+}
+
+
+
+.underline hr {
+
+    border-bottom: 2px solid #00AEFF;
+    width: 10px;
+
+
+}
+
+.bit-box {
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid #00AEFF;
+    ;
+}
+
+.card {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    /* border-radius:none; */
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    color: #00AEFF;
+    ;
+}
+
+.card:hover img {
+    opacity: 0.7;
+
+}
+
+.col-md-4 {
+    margin-top: 10px;
+   
+}
+
+
+
+hr {
+
+    width: 1px;
+    border-bottom: 2px solid #00AEFF;
+    ;
+
+}
+
+
+
+
+.inside-text {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.text-header {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+.pattern-btn {
+    /* display: none ; */
+   
+    margin-left: 60px;
+    margin-top: 40px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.pic-button:hover{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    width: 320px;
+    /* height: 100px;  */
+    /* margin-left: -2px; */
+    /* padding: 20px; */
+    
+}
+
+.pic-button:hover{
+
+}
+
+h6 {
+    font-size: 14px;
+    color: rgb(121, 114, 114);
+}
+
+.coverall a {
+    text-decoration: none;
+
+}
+
+.coverall {
+    margin-left: 170px;
+    align-items: center;
+}
+
+/* .table{
+    border: none;
+    border-bottom: none;
+    background: white;
+} */
+.table td {
+    color: rgb(101, 98, 98);
+    border: none;
+    background: white;
+    border-top: none;
+
+}
+
+.table tr {
+    color: #00AEFF;
+    border: none;
+    margin-top: 50px;
+    background: white;
+}
+
+.table tbody {
+    background: white;
+    border: none;
+}
+
+.table th {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form-pattern {
+    width: 0 1000px;
+    background: rgba(237, 233, 233, 0.623);
+    height: 200px;
+    /* margin-bottom: 28%; */
+
+}
+
+.form-form input[type=email] {
+    padding: 8px;
+    width: 550px;
+    margin-left: 22%;
+    margin-top: 4%;
+    outline: none;
+    border: 1px solid #00AEFF;
+    ;
+    border-radius: 5px;
+}
+
+
+.for-path {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(123, 123, 123);
+    margin-botton: 20px;
+}
+
+.after-path {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 17px;
+
+}
+
+.pic-wrap {
+    margin-top: 80px;
+}
+
+
+
+
+h3 {
+    text-align: center;
+    color: rgb(126, 125, 125);
+    size: 25px;
+    line-height: 4rem;
+
+}
+
+.pic-wrap hr {
+    width: 10px;
+    border-bottom: 2px solid #00AEFF;
+    margin-left: 30%;
+}
+
+.pic-wrap img {
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+.btn-butt {
+    margin-left: 40%;
+    padding: 5px;
+    width: 20%;
+    background: #00AEFF;
+}
+
+/* .sixpic1:hover{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+width: 320px;
+} */
