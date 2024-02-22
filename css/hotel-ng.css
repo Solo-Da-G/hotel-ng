@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 
 .stage-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/hotel1.jpg');
@@ -318,6 +321,87 @@ h3 {
     width: 20%;
     background: #00AEFF;
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+     margin: auto;
+    }
+
+    .cover-form {
+        background: white;
+        position: sticky;
+      
+        /* position: -webkit-sticky; */
+        top: 0;
+        margin: 0 auto;
+        margin-top:-60px;
+        width: 350px;
+        height: 130px;
+        box-shadow: 1px 1px 1px 1px rgb(147, 145, 145);
+        z-index: 1;
+      
+    }
+    
+    
+    input[type=text] {
+        padding: 6px;
+        width: 120px;
+        /* border: 0px 1px 0 1px solid black; */
+        outline: #00AEFF;
+        ;
+        margin-top: 30px;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -10px;
+        border: 1px solid #00AEFF;
+        border-left: none;
+    
+    
+    }
+    
+    input[type=date] {
+        padding: 6px;
+        width: 120px;
+        border: 1px solid #00AEFF;
+        border-radius: 5px;
+    
+    }
+    
+    input[type=date]:focus {
+        border-color: #00AEFF;
+        outline: blue;
+    }
+    
+    input:focus {
+        border-color: #00AEFF;
+        
+    
+    }
+
+    .prime {
+        padding: 10px;
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+        border-radius: 5px;
+        background: #00AEFF;
+        /* border: none; */
+        margin-left: 50px;
+        margin-bottom: 8px;
+    }
+
+    .horrizotal-line1{
+        border-bottom: 4px solid #00AEFF;
+        width: 40px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    
+  }
 
 /* .sixpic1:hover{
 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
