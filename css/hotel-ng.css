@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
 }
 
@@ -19,16 +20,16 @@ body{
 .cover-form {
     background: white;
     position: sticky;
-  
+
     /* position: -webkit-sticky; */
     top: 0;
     margin: 0 auto;
-    margin-top:-60px;
+    margin-top: -60px;
     width: 1080px;
     height: 130px;
     box-shadow: 1px 1px 1px 1px rgb(147, 145, 145);
     z-index: 1;
-  
+
 }
 
 
@@ -62,7 +63,7 @@ input[type=date]:focus {
 
 input:focus {
     border-color: #00AEFF;
-    
+
 
 }
 
@@ -104,8 +105,8 @@ input:focus {
 
 .pt {
     margin-top: 140px;
-   
-    
+
+
 }
 
 
@@ -150,7 +151,7 @@ input:focus {
 
 .col-md-4 {
     margin-top: 10px;
-   
+
 }
 
 
@@ -183,7 +184,7 @@ hr {
 
 .pattern-btn {
     /* display: none ; */
-   
+
     margin-left: 60px;
     margin-top: 40px;
     border: 1px solid white;
@@ -191,18 +192,16 @@ hr {
 
 }
 
-.pic-button:hover{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+.pic-button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     width: 320px;
     /* height: 100px;  */
     /* margin-left: -2px; */
     /* padding: 20px; */
-    
-}
-
-.pic-button:hover{
 
 }
+
+.pic-button:hover {}
 
 h6 {
     font-size: 14px;
@@ -260,12 +259,11 @@ h6 {
 
 .form-form input[type=email] {
     padding: 8px;
-    width: 550px;
+    width: 50%;
     margin-left: 22%;
     margin-top: 4%;
     outline: none;
     border: 1px solid #00AEFF;
-    ;
     border-radius: 5px;
 }
 
@@ -290,9 +288,9 @@ h6 {
 
 
 
-.group-logoes{
-  align-items: center; 
-  justify-content: space-between; 
+.group-logoes {
+    align-items: center;
+    justify-content: space-between;
 }
 
 h3 {
@@ -329,25 +327,25 @@ h3 {
 
 @media screen and (max-width: 480px) {
     body {
-     margin: auto;
+        margin: auto;
     }
 
     .cover-form {
         background: white;
         position: sticky;
-      
+
         /* position: -webkit-sticky; */
         top: 0;
         margin: 0 auto;
-        margin-top:-60px;
+        margin-top: -60px;
         width: 350px;
         height: 130px;
         box-shadow: 1px 1px 1px 1px rgb(147, 145, 145);
         z-index: 1;
-      
+
     }
-    
-    
+
+
     input[type=text] {
         padding: 6px;
         width: 120px;
@@ -359,27 +357,27 @@ h3 {
         margin-left: -10px;
         border: 1px solid #00AEFF;
         border-left: none;
-    
-    
+
+
     }
-    
+
     input[type=date] {
         padding: 6px;
         width: 120px;
         border: 1px solid #00AEFF;
         border-radius: 5px;
-    
+
     }
-    
+
     input[type=date]:focus {
         border-color: #00AEFF;
         outline: blue;
     }
-    
+
     input:focus {
         border-color: #00AEFF;
-        
-    
+
+
     }
 
     .prime {
@@ -394,7 +392,9 @@ h3 {
         margin-bottom: 8px;
     }
 
-    /* .horrizotal-line1{
+    */
+
+    /* /* .horrizotal-line1{
         border-bottom: 4px solid #00AEFF;
         width: 40px;
         margin-bottom: 10px;
@@ -411,16 +411,15 @@ h3 {
 
     .form-form input[type=email] {
         padding: 8px;
-        width: 200px;
+        width: 2%;
         margin-left: 22%;
         margin-top: 4%;
         outline: none;
         border: 1px solid #00AEFF;
-        ;
         border-radius: 5px;
     }
-    
-  }
+
+}
 
 /* .sixpic1:hover{
 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
