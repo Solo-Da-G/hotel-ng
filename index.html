@@ -5,544 +5,369 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel-naija</title>
-    <link rel="stylesheet" href="./bookstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./bookstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="./css/hotel-ng.css">
 </head>
-<style>
-    .stage-1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/hotel1.jpg');
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 300px;
-
-    }
-
-
-    .sixpic {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng7.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-
-    }
-
-    .sixpic1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng8.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-    }
-
-    .sixpic2 {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng9.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-    }
-
-    .sixpic3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng10.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-    }
-
-    .sixpic4 {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng11.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-    }
-
-    .sixpic5 {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hotel.ng12.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 240px;
-        width: 320px;
-        border-radius: 5px;
-
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        /* align-items: center; */
-        background: #00AEFF;
-        height: 70px;
-        padding: 0;
-    }
-
-    .logo-section {
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 630px;
-    }
-
-    .logo-whatsapp ul li {
-
-        list-style: none;
-
-
-    }
-
-
-    /* .horrizotal-line {
-        border-bottom: 4px solid #00AEFF;
-        width: 5%;
-        margin-bottom: 20px;
-        margin-left: 530px;
-    } 
-    .horrizotal-line1{
-        border-bottom: 4px solid #00AEFF;
-        width: 5%;
-        margin-bottom: 20px;
-        margin-left: 580px; 
-    } */
-</style>
 
 <body>
-    <div class="container-fluid">
-        <header>
-            <div class="logo-section">
-                <div class="logo">
-                    <img src="img/hotel-ng-logo1.png" alt="" width="90px" height="70px">
-                </div>
-
-                <!-- <div class="logo-whatsapp">
-                    <ul>
-                        <li><a href="https://api.whatsapp.com"><i
-                                    class="fa-brands fa-whatsapp fa-2x" style="color: #0d7f05;"></i></a></li>
-                    </ul>
-                </div> -->
-
+    <header>
+        <div class="logo-section px-3 px-md-5">
+            <div class="logo">
+                <img src="img/hotel-ng-logo1.png" alt="Hotel.ng Logo" width="90px" height="70px">
             </div>
+            <div class="header-links d-none d-md-block">
+                <!-- Navigation links could go here -->
+            </div>
+        </div>
+    </header>
 
-
-        </header>
-
-        <section class="page1">
-
+    <main>
+        <section class="hero-section">
             <div class="stage-1">
-
-                <p class="fs-1 text-center text-light fw-bold">Find and book hotels in Nigeria.</p>
-                <p class="fs-5 text-center text-light">Search through 13,212 hotels in Nigeria</p>
-
-
-            </div>
-
-
-
-
-
-    </div>
-    <!-- <div class="container-fluid"> -->
-
-    <div class="cover-form">
-        <form action="">
-            <button class="btn btn-light btn-sm"><i class="fa fa-search" style="color: #626060;"></i></button>
-            <input type="text" name="Search for a city or a particular hotel"
-                placeholder="Search for a city or a particular hotel" title="please fill out this field">
-            <input type="date" value="calender">
-            <button class="btn btn-primary btn-lg prime">Find Hotels</button>
-
-
-        </form>
-    </div>
-
-    <div class="container">
-
-        <p class="fs-3 text-center text-lg pt fw-bold">Suggested Destinations in Nigeria.</p>
-        <p class="text-center text-sm ">Below are the most popular travel destinations in Nigeria.</p>
-        <div class="horrizotal-line"></div>
-        <div class="row">
-            <div class="col-md-2">
-                <button type="button" class="btn btn-outline-primary bit-box">
-                    <p class="fw-bold">Hotels in<br>
-                        Lagos</p>
-                    <p class="">3,441 hotels</p>
-                </button>
-            </div>
-
-
-            <div class="col-md-2">
-                <button type="button" class="btn btn-outline-primary bit-box">
-                    <p class="fw-bold">Hotels in<br>
-                        Abuja</p>
-                    1,163 hotels
-                </button>
-            </div>
-
-
-
-            <div class="col-md-2">
-                <a href="" target="_blank">
-                    <button type="button" class="btn btn-outline-primary bit-box">
-                        <p class="fw-bold">Hotels in<br>
-                            Port Harcourt</p>395 hotels
-                    </button>
-                </a>
-            </div>
-
-
-
-
-            <div class="col-md-2">
-                <button type="button" class="btn btn-outline-primary bit-box">
-                    <p class="fw-bold">Hotels in<br>
-                        Kaduna</p>330 hotels
-                </button>
-            </div>
-
-
-
-            <div class="col-md-2">
-                <button type="button" class="btn btn-outline-primary bit-box">
-                    <p class="fw-bold">Hotels in<br>
-                        Uyo</p>203 hotels
-                </button>
-            </div>
-
-
-
-            <div class="col-md-2">
-                <button type="button" class="btn btn-outline-primary bit-box">
-                    <p class="fw-bold">Hotels in<br>
-                        Ibadan</p>445 hotels
-                </button>
-            </div>
-        </div>
-
-        <p class="fs-3 text-center text-lg pt fw-bold">Today's Top Hotel Deals</p>
-        <p class="text-center text-sm ">A selection of the best hotel deals, only available today</p>
-
-        <div class="horrizotal-line"></div>
-        <div class="row">
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">WaveCrest Beach Res..</p>
-                    <p class=" card-text">Ibeju-Lekki, Lagos</p>
+                <div class="container text-center">
+                    <h1 class="display-4 text-light fw-bold">Find and book hotels in Nigeria.</h1>
+                    <p class="fs-5 text-light mb-4">Search through 13,212 hotels in Nigeria</p>
                 </div>
             </div>
 
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">The Avenue Suites</p>
-                    <p class=" card-text">victoria-island, Lagos</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">Intelligent Hotels and Suite</p>
-                    <p class=" card-text">Rivers, Port-harcourt</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">E Gold Hotel Maitama</p>
-                    <p class=" card-text">maitama, Abuja</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng5.jpg" class="card-img-top" alt="..." height="247px">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">Dallas Grand Beach Hotel & R</p>
-                    <p class=" card-text">Oghara, delta</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 22rem;">
-                <img src="img/hotel.ng6.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="fs-5 card-text text-primary fw-bold">Kitex Place</p>
-                    <p class=" card-text">Lekki Phase 1, Lagos</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p class="fs-3 text-center text-lg pt fw-bold">Popular cities with Hotels.ng travellers</p>
-    <p class="text-center text-sm">See the top destinations people are traveling to </p>
-
-    <div class="horrizotal-line1"></div>
-    <div class="container">
-        <div class="row">
-
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic">
-                        <p class="inside-text">3,441</p>
-                        <h3 class="text-header">Lagos hotels</h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in Lagos</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic1">
-                        <p class="inside-text">1,163</p>
-                        <h3 class="text-header">Abuja Hotels</h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in Abuja</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic2">
-                        <p class="inside-text">274</p>
-                        <h3 class="text-header">Calabar hotels</h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in
-                            Calabar</button>
+            <div class="cover-form-container">
+                <div class="container">
+                    <div class="cover-form px-3 py-4 p-md-0">
+                        <form action="" class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-2">
+                            <div class="input-group search-input">
+                                <span class="input-group-text bg-white border-end-0">
+                                    <i class="fa fa-search text-secondary"></i>
+                                </span>
+                                <input type="text" class="form-control border-start-0" 
+                                    placeholder="Search for a city or a particular hotel">
+                            </div>
+                            <div class="date-input-wrapper">
+                                <input type="date" class="form-control date-input" value="2024-04-22">
+                            </div>
+                            <button class="btn btn-primary prime">Find Hotels</button>
+                        </form>
                     </div>
                 </div>
             </div>
+        </section>
 
-
-
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic3">
-                        <p class="inside-text">395</p>
-                        <h3 class="text-header">Port Harcourt hotels</h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in Port
-                            Harcourt</button>
+        <section class="destinations py-5">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-2">Suggested Destinations in Nigeria.</h2>
+                <p class="text-muted mb-4 small">Below are the most popular travel destinations in Nigeria.</p>
+                <div class="horrizotal-line mx-auto mb-5"></div>
+                
+                <div class="row g-3 justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Lagos</span>
+                            <small>3,441 hotels</small>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Abuja</span>
+                            <small>1,163 hotels</small>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Port Harcourt</span>
+                            <small>395 hotels</small>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Kaduna</span>
+                            <small>330 hotels</small>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Uyo</span>
+                            <small>203 hotels</small>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2">
+                        <button type="button" class="btn btn-outline-primary bit-box">
+                            <span class="fw-bold d-block">Hotels in Ibadan</span>
+                            <small>445 hotels</small>
+                        </button>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic4">
-                        <p class="inside-text">192</p>
-                        <h3 class="text-header">Owerri hotels</h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in Owerri</button>
+        <section class="deals py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-2">Today's Top Hotel Deals</h2>
+                <p class="text-muted mb-4 small">A selection of the best hotel deals, only available today</p>
+                <div class="horrizotal-line mx-auto mb-5"></div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng1.jpg" class="card-img-top" alt="WaveCrest Beach Res">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">WaveCrest Beach Res..</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    Eleko Beach Road, off Lamina Street, Ibeju-Lekki, Lagos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng2.jpg" class="card-img-top" alt="The Avenue Suites">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">The Avenue Suites</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    1390 Tiamiyu Savage Street, Victoria Island, Lagos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng3.jpg" class="card-img-top" alt="Intelligent Hotels">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">Intelligent Hotels and Suite</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    Off East/West Road, Rumuekini, Port-Harcourt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng4.jpg" class="card-img-top" alt="E Gold Hotel">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">E Gold Hotel Maitama</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    No. 2 Sankuru Close, off Rima Street, Maitama, Abuja
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng5.jpg" class="card-img-top" alt="Dallas Grand Beach">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">Dallas Grand Beach Hotel & R</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    1 & 5 Court Road, Oghara, Delta
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-img-wrapper">
+                                <img src="img/hotel.ng6.jpg" class="card-img-top" alt="Kitex Place">
+                            </div>
+                            <div class="card-body text-start">
+                                <h5 class="card-title text-primary fw-bold text-truncate">Kitex Place</h5>
+                                <p class="card-text text-muted small mb-0">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                                    45 Jay Jay Oladimeji Street, Lekki Phase 1, Lagos
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="sixpic5">
-                        <p class="inside-text">203</p>
-                        <h3 class="text-header"><strong> Uyo hotels</strong></h3>
-                        <button type="button" class="btn btn-outline-primary pattern-btn">Book Hotels in Uyo</button>
+        <section class="popular-cities py-5">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-2">Popular cities with Hotels.ng travellers</h2>
+                <p class="text-muted mb-4 small">See the top destinations people are traveling to</p>
+                <div class="horrizotal-line mx-auto mb-5"></div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic">
+                            <p class="inside-text">3,649</p>
+                            <h3 class="text-header">Lagos hotels</h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Lagos</button>
+                        </div>
                     </div>
-
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic1">
+                            <p class="inside-text">1,294</p>
+                            <h3 class="text-header">Abuja Hotels</h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Abuja</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic2">
+                            <p class="inside-text">289</p>
+                            <h3 class="text-header">Calabar hotels</h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Calabar</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic3">
+                            <p class="inside-text">450</p>
+                            <h3 class="text-header">Port Harcourt hotels</h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Port Harcourt</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic4">
+                            <p class="inside-text">260</p>
+                            <h3 class="text-header">Owerri hotels</h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Owerri</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="sixpic5">
+                            <p class="inside-text">203</p>
+                            <h3 class="text-header"><strong>Uyo hotels</strong></h3>
+                            <button type="button" class="btn btn-outline-light pattern-btn">Book Hotels in Uyo</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <p class="fs-3 text-center text-lg pt fw-bold">Which City Do You Want To Book A Hotel ?</p>
-        <p class="text-center text-sm ">7201 hotels in 1,853 cities / towns in Nigeria</p>
-        <div class="horrizotal-line"></div>
+        <section class="city-selector py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-2">Which City Do You Want To Book A Hotel?</h2>
+                <p class="text-muted mb-4 small">13,753 hotels in 1,483 cities / towns in Nigeria</p>
+                <div class="horrizotal-line mx-auto mb-5"></div>
 
-
-        <div class="table-responsive">
-            <table class="table table-bordered table-secondary table-hover">
-                <thead>
-                    <th>Hotels in Abia</th>
-                    <th>Hotels in Abuja</th>
-                    <th>Hotels in Adamawa</th>
-                    <th>Hotels in Akwa Ibom</th>
-                    <th>Hotels in Anambra</th>
-
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>296 hotels in Abia with over 171 hotel reviews</td>
-                        <td>1,163 hotels in Abuja with over 2,447 hotel reviews</td>
-                        <td>70 hotels in Adamawa with over 48 hotel reviews</td>
-                        <td>477 hotels in Akwa Ibom with over 301 hotel reviews</td>
-                        <td>300 hotels in Anambra with over 138 hotel reviews</td>
-
-
-
-
-                        <thead>
-                            <th>Hotels in Bauchi</th>
-                            <th>Hotels in Bayelsa</th>
-                            <th>Hotels in Benue</th>
-                            <th>Hotels in Borno</th>
-                            <th>Hotels in Cross River</th>
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>52 hotels in Bauchi with over 58 hotel reviews</td>
-                        <td>179 hotels in Bayelsa with over 58 hotel reviews</td>
-                        <td>294 hotels in Benue with over 40 hotel reviews</td>
-                        <td>25 hotels in Borno with over 11 hotel reviews</td>
-                        <td>362 hotels in Cross River with over 341 hotel reviews</td>
-
-
-
-                        <thead>
-                            <th>Hotels in Delta</th>
-                            <th>Hotels in Ebonyi</th>
-                            <th>Hotels in Edo</th>
-                            <th>Hotels in Ekiti</th>
-                            <th>Hotels in Enugu</th>
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>644 hotels in Delta with over 458 hotel reviews</td>
-                        <td>101 hotels in Ebonyi with over 25 hotel reviews</td>
-                        <td>371 hotels in Edo with over 503 hotel reviews</td>
-                        <td>232 hotels in Ekiti with over 208 hotel reviews</td>
-                        <td>358 hotels in Enugu with over 460 hotel reviews</td>
-
-
-                        <thead>
-                            <th>Hotels in FCT</th>
-                            <th>Hotels in Gombe</th>
-                            <th>Hotels in Imo</th>
-                            <th>Hotels in Jigawa</th>
-                            <th>Hotels in Kaduna</th>
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>1 hotels in FCT with no hotel reviews</td>
-                        <td>44 hotels in Gombe with over 24 hotel reviews</td>
-                        <td>337 hotels in Imo with over 320 hotel reviews</td>
-                        <td>33 hotels in Jigawa with over 5 hotel reviews</td>
-                        <td>330 hotels in Kaduna with over 263 hotel reviews</td>
-
-
-                        <thead>
-                            <th>Hotels in Kano</th>
-                            <th>Hotels in Katsina</th>
-                            <th>Hotels in Kebbi</th>
-                            <th>Hotels in Kogi</th>
-                            <th>Hotels in Kwara</th>
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>128 hotels in Kano with over 129 hotel reviews</td>
-                        <td>32 hotels in Katsina with over 24 hotel reviews</td>
-                        <td>27 hotels in Kebbi with over 10 hotel reviews</td>
-                        <td>264 hotels in Kogi with over 53 hotel reviews</td>
-                        <td>335 hotels in Kwara with over 312 hotel reviews</td>
-
-
-                        <thead>
-                            <th>Hotels in Kano</th>
-                            <th>Hotels in Katsina</th>
-                            <th>Hotels in Kebbi</th>
-                            <th>Hotels in Kogi</th>
-                            <th>Hotels in Kwara</th>
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>644 hotels in Delta with over 458 hotel reviews</td>
-                        <td>101 hotels in Ebonyi with over 25 hotel reviews</td>
-                        <td>371 hotels in Edo with over 503 hotel reviews</td>
-                        <td>232 hotels in Ekiti with over 208 hotel reviews</td>
-                        <td>358 hotels in Enugu with over 460 hotel reviews</td>
-
-
-
-
-                        <thead>
-                            <th>Hotels in Bauchi</th>
-                            <th>Hotels in Bayelsa</th>
-                            <th>Hotels in Benue</th>
-
-
-                        </thead>
-
-                <tbody>
-                    <tr>
-                        <td>52 hotels in Bauchi with over 58 hotel reviews</td>
-                        <td>179 hotels in Bayelsa with over 58 hotel reviews</td>
-                        <td>294 hotels in Benue with over 40 hotel reviews</td>
-
-            </table>
-
-
-
-        </div>
-
-    </div>
-
-    <div class="form-pattern">
-        <h4 class="for-path">Special Hotel Deals and Offers</h4>
-        <h6 class="after-path">Enter your email address to receive secret hotel deals</h6>
-        <form action="">
-            <div class="form-form">
-                <input type="email" name="email" placeholder="Enter your email here">
-                <button class="btn btn-primary">Subscribe</button>
+                <div class="table-responsive">
+                    <table class="table table-borderless table-hover text-center align-top">
+                        <tbody>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Abia</div><div class="small text-muted">De Royal Suite, Michael Okpara Rd, Umuahia</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Abuja</div><div class="small text-muted">Transcorp Hilton, 1 Aguiyi Ironsi St, Maitama</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Adamawa</div><div class="small text-muted">AUN Hotel, 1-5 Ahmadu Bello Way, Yola</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Akwa Ibom</div><div class="small text-muted">Ibom Icon Hotel, Clement Isong St, Uyo</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Anambra</div><div class="small text-muted">Golden Tulip, 122 Zik Ave, Awka</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Bauchi</div><div class="small text-muted">Zaranda Hotel, Ahmadu Bello Way, Bauchi</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Bayelsa</div><div class="small text-muted">Aridolf Resort, 1 Sani Abacha Exp, Yenagoa</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Benue</div><div class="small text-muted">Benue Hotels, 45 J.S. Tarka Way, Makurdi</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Borno</div><div class="small text-muted">Maiduguri Int'l Hotel, 1 Airport Rd, Maiduguri</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Cross River</div><div class="small text-muted">Transcorp Hotel, 10 Hillview, Calabar</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Delta</div><div class="small text-muted">Swiss Spirit Hotel, 100 Nnebisi Rd, Asaba</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Ebonyi</div><div class="small text-muted">Osborne La-Palm, 1 Vunm Ave, Abakaliki</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Edo</div><div class="small text-muted">Protea Hotel, 1 Sapele Rd, Benin City</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Ekiti</div><div class="small text-muted">Pathfinder Hotel, 1 Secretariat Rd, Ado-Ekiti</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Enugu</div><div class="small text-muted">Nike Lake Resort, Independence Layout, Enugu</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Fct</div><div class="small text-muted">Sheraton Hotel, 1 Ladi Kwali St, Garki</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Gombe</div><div class="small text-muted">Gombe Jewel Hotel, 1 Bauchi Rd, Gombe</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Imo</div><div class="small text-muted">Concorde Hotel, 1 Wetheral Rd, Owerri</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Jigawa</div><div class="small text-muted">Three Star Hotel, 1 Sani Abacha Way, Dutse</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Kaduna</div><div class="small text-muted">Hamdala Hotel, 1 Buhari Way, Kaduna</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Kano</div><div class="small text-muted">Bristol Palace, 1 Club Rd, Bompai, Kano</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Katsina</div><div class="small text-muted">Katsina Motel, 1 IBB Way, Katsina</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Kebbi</div><div class="small text-muted">Assarama Hotel, Ahmadu Bello Way, Birnin Kebbi</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Kogi</div><div class="small text-muted">Confluence Hotel, Lokoja-Okene Rd, Lokoja</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Kwara</div><div class="small text-muted">Kwara Hotel, 1 Taiwo Rd, Ilorin</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Lagos</div><div class="small text-muted">Eko Hotels, 1 Alfred Rewane Rd, VI, Lagos</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Nasarawa</div><div class="small text-muted">City Rock Hotel, 1 Jos Rd, Lafia</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Niger</div><div class="small text-muted">Shiroro Hotel, 1 Paiko Rd, Minna</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Ogun</div><div class="small text-muted">Park Inn, 1 MKO Abiola Way, Abeokuta</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Ondo</div><div class="small text-muted">Sunview Hotel, 1 Igbatoro Rd, Akure</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Osun</div><div class="small text-muted">MicCom Golf Hotels, Gbongan Rd, Osogbo</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Oyo</div><div class="small text-muted">Premier Hotel, 1 Ring Rd, Ibadan</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Plateau</div><div class="small text-muted">Jos Hill Station, 1 Liberty Blvd, Jos</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Rivers</div><div class="small text-muted">Hotel Presidential, 1 Aba Rd, Port Harcourt</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Sokoto</div><div class="small text-muted">Giginya Memorial, 1 Gusau Rd, Sokoto</div></td>
+                            </tr>
+                            <tr>
+                                <td><div class="fw-bold text-primary">Hotel in Taraba</div><div class="small text-muted">Jalingo Motel, 1 Hammaruwa Way, Jalingo</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Yobe</div><div class="small text-muted">Yobe State Hotel, Maiduguri Rd, Damaturu</div></td>
+                                <td><div class="fw-bold text-primary">Hotel in Zamfara</div><div class="small text-muted">Gusau Hotel, 1 Sokoto Rd, Gusau</div></td>
+                                <td class="bg-light"></td>
+                                <td class="bg-light"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </form>
-    </div>
+        </section>
 
-    <h3>We've been featured in</h3>
-    <div class="horrizotal-line1"></div>
-    <div class="row pic-wrap">
+        <section class="newsletter py-5">
+            <div class="container text-center">
+                <div class="newsletter-box stage-1 rounded-3 p-4 p-md-5 overflow-hidden">
+                    <div class="newsletter-content position-relative text-center">
+                        <h4 class="fw-bold text-light mb-3">Special Hotel Deals and Offers</h4>
+                        <p class="text-light opacity-75 mb-4">Enter your email address to receive secret hotel deals</p>
+                        <form action="" class="newsletter-form mx-auto px-2" style="max-width: 500px;">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email here">
+                                <button class="btn btn-primary px-4">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="col-md-3">
-            <img src="img/bbc.png" alt="" width="50%">
-        </div>
+        <section class="featured py-5 bg-white">
+            <div class="container text-center">
+                <h3 class="fw-bold mb-5 small-header">We've been featured in</h3>
+                <div class="row align-items-center g-4 justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <img src="img/bbc.png" alt="BBC" class="img-fluid extra-logo" style="max-height: 40px;">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/forbe.png" alt="Forbes" class="img-fluid extra-logo" style="max-height: 40px;">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/newsweek.png" alt="Newsweek" class="img-fluid extra-logo" style="max-height: 40px;">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/itweb africa.png" alt="ITWeb Africa" class="img-fluid extra-logo" style="max-height: 40px;">
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="add-hotel py-5 text-center bg-primary text-white">
+            <div class="container">
+                <h2 class="fw-bold mb-2">Get More Bookings for Your Hotel</h2>
+                <p class="mb-4 opacity-75">Find out why over 13,210 hotel managers trust Hotels.ng</p>
+                <button class="btn btn-light btn-lg px-5">Add Your Hotel</button>
+            </div>
+        </section>
+    </main>
 
-        <div class="col-md-3">
-            <img src="img/forbe.png" alt="" width="50%">
-        </div>
+    <footer class="py-4 text-center border-top">
+        <p class="text-muted mb-0 small">&copy; 2024 Hotel-naija. All rights reserved.</p>
+    </footer>
 
-
-        <div class="col-md-3">
-            <img src="img/newsweek.png" alt="" width="70%">
-        </div>
-
-
-        <div class="col-md-3">
-            <img src="img/itweb africa.png" alt="" width="50%" class="itweb">
-        </div>
-
-
-    </div>
-
-    <p class="fs-3 text-center text-lg pt fw-bold">Get More Bookings for Your Hotel</p>
-    <p class="text-center text-sm ">Find out why over 13,210 hotel managers trust Hotels.ng</p>
-    <button class="btn btn-primary btn-butt">Add Your Hotel</button>
-    </div>
-
-    </section>
-    </div>
 </body>
 
 </html>
