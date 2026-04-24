@@ -55,18 +55,30 @@ header {
 /* Search Form */
 .cover-form-container {
     padding-top: 0;
-    position: sticky;
-    top: -1px;
+    position: relative;
     z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.cover-form-container.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    padding: 10px 0;
+    box-shadow: var(--shadow-sm);
+    z-index: 1050;
 }
 
 .cover-form {
     background: var(--white);
     border-radius: 8px;
     box-shadow: var(--shadow);
-    padding: 20px;
+    padding: 25px;
     transform: translateY(-50%);
     width: 100%;
+    transition: all 0.3s ease;
 }
 
 .search-input {
@@ -203,9 +215,10 @@ header {
     opacity: 1; /* Show on hover */
 }
 
-.pattern-btn:hover {
-    background: var(--white);
-    color: var(--primary-color);
+ .pattern-btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
 }
 
 /* City Selector */
@@ -286,6 +299,12 @@ header {
     .cover-form-container.is-sticky .cover-form {
         transform: none;
         border-radius: 0;
-        padding: 10px 0;
+        padding: 5px 0;
+        box-shadow: none;
     }
+}
+
+.cover-form-container.is-sticky form {
+    max-width: 1140px;
+    margin: 0 auto;
 }

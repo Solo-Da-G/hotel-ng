@@ -368,6 +368,19 @@
         <p class="text-muted mb-0 small">&copy; 2024 Hotel-naija. All rights reserved.</p>
     </footer>
 
+    <script>
+        window.addEventListener('scroll', function() {
+            const searchContainer = document.querySelector('.cover-form-container');
+            const heroSection = document.querySelector('.hero-section');
+            const stickyPoint = heroSection.offsetHeight - 50;
+
+            if (window.scrollY > stickyPoint) {
+                searchContainer.classList.add('is-sticky');
+            } else {
+                searchContainer.classList.remove('is-sticky');
+            }
+        });
+    </script>
 </body>
 
 </html>
